@@ -58,9 +58,18 @@ The dataset is downloaded automatically by the notebook, so no Kaggle API key is
 
 The model predicts the fruit type, freshness condition, and confidence.
 
-**Example:**
+## Results
+
+The final MobileNetV2 model achieved **99.04% test accuracy**, outperforming the custom CNN, which achieved **83.91%**.
+
+| Model | Test Accuracy |
+|---|---:|
+| Custom CNN | 83.91% |
+| MobileNetV2 | 99.04% |
+
+### Example Prediction
 
 ```text
-Fruit: Banana
-Condition: Fresh
-Confidence: 97.42%
+Fruit: Apple
+Condition: Rotten
+Confidence: 99.74%
